@@ -33,14 +33,32 @@ namespace Sandbox
 
             for (int i = 0; i < 10; i++)
             {
-                
-                drawer.DrawOneStar();
+                drawer.DrawOneStar(); drawer.DrawOneStar(); drawer.DrawOneStar(); drawer.DrawOneStar(); drawer.DrawOneStar();
+                drawer.DrawOneStar(); drawer.DrawOneStar(); drawer.DrawOneStar(); drawer.DrawOneStar(); drawer.DrawOneStar();
                 drawer.StartNewLine();  
             }
-            // YOUR JOB: Add code to draw shapes
 
+            // Shape D
+            Console.WriteLine("\r\n Shape D, * **, whatever that is \r\n");
 
-            // The LAST line of code should be ABOVE this line
+            for (int i = 0; i < 1; i++)
+            {
+                drawer.DrawOneStar();
+                drawer.DrawOneSpace();
+                drawer.DrawOneStar(); drawer.DrawOneStar();
+
+            }
+
+            // Shape E
+            Console.WriteLine("\r\n Shape E, a big X");
+
+            for (int i = 0; i < 1; i++)
+            {
+                drawer.DrawOneStar(); drawer.DrawOneSpace(); drawer.DrawOneStar(); drawer.StartNewLine();
+                drawer.DrawOneSpace(); drawer.DrawOneStar(); drawer.StartNewLine();
+                drawer.DrawOneStar(); drawer.DrawOneSpace(); drawer.DrawOneStar();
+            }
+     
         }
     }
 }
