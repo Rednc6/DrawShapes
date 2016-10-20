@@ -10,7 +10,7 @@ namespace Sandbox
             theCode.MyCode();
 
             Console.WriteLine();
-            Console.WriteLine("Press any key to close the program...");
+            Console.WriteLine("\r\n Press any key to close the program...");
 
             Console.ReadKey();
         }
